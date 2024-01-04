@@ -1,0 +1,46 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+.box-1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-1{
+display: flex;
+width: 90px;
+height: 645px;
+transition: 1s;
+
+}
+.img-1:hover{
+width: 500px;
+}
+
+
+.inicio{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin-bottom: 30px;
+
+box-shadow: 1px 1px 5px;
+background-color:  #7f8c8d ;
+
+}
+
+
+.inicio > h1 {
+font-size: 40px;
+font-style: italic;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
